@@ -280,7 +280,7 @@ texstyle: reviewmacro
 #
 # LaTeX用のdocumentclassを指定する
 # texdocumentclass: ["jsbook", "uplatex,oneside"]
-texdocumentclass: ["review-jsbook", "paper=a4,Q=14.06,oneside,media=ebook,cover=false"]
+texdocumentclass: ["review-jsbook", "paper=a4,fontsize=14.06Q,oneside,media=ebook,cover=false"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
