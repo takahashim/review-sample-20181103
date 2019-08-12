@@ -292,7 +292,7 @@ texdocumentclass: ["review-jsbook", "paper=a4,fontsize=14.06Q,oneside,media=eboo
 # dvicommand: "dvipdfmx"
 #
 # LaTeX用のdvi変換コマンドのオプションを指定する
-# dvioptions: "-d 5"
+dvioptions: "-d 5 -z 9 -vv"
 
 # 以下のパラメータを有効にするときには、
 # pdfmaker:
