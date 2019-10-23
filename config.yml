@@ -280,7 +280,7 @@ texstyle: reviewmacro
 #
 # LaTeX用のdocumentclassを指定する
 # texdocumentclass: ["jsbook", "uplatex,oneside"]
-texdocumentclass: ["review-jsbook", "paper=a4,Q=14.06,oneside,media=ebook,cover=false"]
+texdocumentclass: ["review-jsbook", "paper=a4,fontsize=14.06Q,oneside,media=ebook,cover=false"]
 #
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
@@ -292,7 +292,7 @@ texdocumentclass: ["review-jsbook", "paper=a4,Q=14.06,oneside,media=ebook,cover=
 # dvicommand: "dvipdfmx"
 #
 # LaTeX用のdvi変換コマンドのオプションを指定する
-# dvioptions: "-d 5"
+dvioptions: "-d 5 -z 9 -vv"
 
 # 以下のパラメータを有効にするときには、
 # pdfmaker:
